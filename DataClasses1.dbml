@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Trial" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=Room5320\SQLEXPRESS;Initial Catalog=Trial;Integrated Security=True;Trust Server Certificate=True" SettingsObjectName="LinqSqlWinFormDemo.Properties.Settings" SettingsPropertyName="TrialConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.People" Member="Peoples">
+    <Type Name="People">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="Surname" Type="System.String" DbType="NVarChar(30) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>
